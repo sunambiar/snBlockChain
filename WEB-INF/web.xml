@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+    <context-param>
+        <param-name>snConfigFile</param-name>
+        <param-value>c:/snConfig/snConfig_snBlockChain.ini</param-value>
+    </context-param>
+    <context-param>
+        <param-name>snConfigFile-Linux</param-name>
+        <param-value>/user1/snConfig/snConfig_snBlockChain.ini</param-value>
+    </context-param>
+    <context-param>
+        <param-name>ApplicationName</param-name>
+        <param-value>snBlockChain</param-value>
+    </context-param>
+    <listener>
+        <description>Listens and retrieves Configuration File Name</description>
+        <listener-class>config.snConfigFile</listener-class>
+    </listener>
+    <servlet>
+        <servlet-name>setupLog</servlet-name>
+        <servlet-class>servlets.log.snSetupLog</servlet-class>
+        <load-on-startup>2</load-on-startup>
+    </servlet> 
+    <servlet-mapping>
+        <servlet-name>setupLog</servlet-name>
+        <url-pattern>/snSetupLog</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>showChain</servlet-name>
+        <servlet-class>servlets.showChain</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ValidateUser</servlet-name>
+        <servlet-class>servlets.ValidateUser</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>requestBank4BGissue</servlet-name>
+        <servlet-class>servlets.requestBank4BGissue</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>requestIOCL4BGrelease</servlet-name>
+        <servlet-class>servlets.requestIOCL4BGrelease</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>showChain</servlet-name>
+        <url-pattern>/showChain</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ValidateUser</servlet-name>
+        <url-pattern>/ValidateUser</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>requestBank4BGissue</servlet-name>
+        <url-pattern>/requestBank4BGissue</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>requestIOCL4BGrelease</servlet-name>
+        <url-pattern>/requestIOCL4BGrelease</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
