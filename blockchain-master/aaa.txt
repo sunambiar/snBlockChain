@@ -1,0 +1,65 @@
+------------- Chain to see the Block-Chain on Node 2  -----------------
+{
+  "chain": [
+    {
+      "index": 1, 
+      "previous_hash": "1", 
+      "proof": 100, 
+      "timestamp": 1513693306.2574594, 
+      "transactions": []
+    }, 
+    {
+      "index": 2, 
+      "previous_hash": "d2641358d4aab32f8c8b0bf04a5d54d278810b88e84aba8adea32361d0b302fa", 
+      "proof": 35293, 
+      "timestamp": 1513693380.2592862, 
+      "transactions": [
+        {
+          "amount": 1, 
+          "recipient": "162fb1d38a8d4d048d78507c93f32fb2", 
+          "sender": "0"
+        }
+      ]
+    }, 
+    {
+      "index": 3, 
+      "previous_hash": "b4efcc1806a153aaed7150584bb0ac2bcc1566b0bcda275da9c4982d007fc5a7", 
+      "proof": 35089, 
+      "timestamp": 1513693380.4166973, 
+      "transactions": [
+        {
+          "amount": 1, 
+          "recipient": "162fb1d38a8d4d048d78507c93f32fb2", 
+          "sender": "0"
+        }
+      ]
+    }, 
+    {
+      "index": 4, 
+      "previous_hash": "6413e3394d1b738e960104c1db321ce1cb36d9c46f8d6aaa9454bce55298ee5f", 
+      "proof": 119678, 
+      "timestamp": 1513693380.7200956, 
+      "transactions": [
+        {
+          "amount": 1, 
+          "recipient": "162fb1d38a8d4d048d78507c93f32fb2", 
+          "sender": "0"
+        }
+      ]
+    }, 
+    {
+      "index": 5, 
+      "previous_hash": "5e541bb1900c59d0a52773d31f66efdc2b76ae0cfb828cc4f0228e32227a5698", 
+      "proof": 146502, 
+      "timestamp": 1513693381.0790625, 
+      "transactions": [
+        {
+          "amount": 1, 
+          "recipient": "162fb1d38a8d4d048d78507c93f32fb2", 
+          "sender": "0"
+        }
+      ]
+    }
+  ], 
+  "length": 5
+}
