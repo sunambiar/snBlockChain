@@ -1,0 +1,20 @@
+
+.top-image {
+	background: url(images/top-illustration.gif) no-repeat center 0;
+	content: "";
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+	min-height: 137px;
+	width: 100%;
+	z-index: 10;
+}
+
+body {
+font: .93em/1.5em Georgia, "Times New Roman", Times, serif;
+background: #f4d0a8 url(images/paper-bg.jpg);
+color: #453320;
+word-wrap: break-word;
+}
+

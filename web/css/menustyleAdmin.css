@@ -1,0 +1,134 @@
+/* 
+    Document   : style1
+    Created on : 27 Nov, 2010, 12:37:11 PM
+    Author     : 00500614
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#LeftMenuEdit {
+  line-height: 25px;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  background-color: white;
+  font-family: Calibri;
+}
+
+#LeftMenuEdit li {
+  width: 100%;
+  background: url(../images/menubg.gif) repeat-x;
+  font-size: 16px;
+}
+
+
+#LeftMenuEdit li ul {
+  width: 100%;
+  line-height: 21px;
+  list-style-type: none;
+  text-align:left;
+  display: none;
+  margin: 0px;
+  padding: 0px;
+}
+#LeftMenuEdit li ul li{
+  background: #FCFCFC;
+  width: 95%;
+  padding-left: 25px;
+  border: 1px solid midnightblue;
+  font-size: 16px;
+}
+
+#LeftMenuEdit li ul li ul {
+  line-height: 21px;
+  list-style-type: none;
+  text-align:left;
+  display: none;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+#LeftMenuEdit li ul li ul li{
+  background: #EDEDED;
+  width: 95%;
+  padding-left: 25px;
+  border: 1px solid orange;
+  font-size: 16px;
+}
+
+#LeftMenuEdit li ul li ul li ul{
+  line-height: 20px;
+  list-style-type: none;
+  text-align:left;
+  display: none;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+#LeftMenuEdit li ul li ul li ul li{
+  width: 95%;
+  background: #DEDEDE;
+  padding-left: 25px;
+  border: 1px solid lightseagreen;
+  font-size: 16px;
+}
+
+#LeftMenuEdit li ul li ul li ul li ul{
+  line-height: 19px;
+  list-style-type: none;
+  text-align:left;
+  display: none;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+#LeftMenuEdit li ul li ul li ul li ul li{
+  width: 95%;
+  background: #D3D3D3;
+  border: 1px solid lightcoral;
+  font-size: 16px;
+}
+
+#LeftMenuEdit li a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  font-family: Calibri;
+  text-align: left;
+  padding-top:4px;
+}
+
+#LeftMenuEdit li ul li a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  font-family: Calibri;
+  text-align: left;
+  padding-top:4px;
+}
+
+
+#LeftMenuEdit li ul li ul li a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  font-family: Calibri;
+  text-align: left;
+  padding-top:4px;
+}
+
+#LeftMenuEdit li ul li ul li ul li a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  font-family: Calibri;
+  text-align: left;
+  padding-top:4px;
+}
+
+.arrow{
+  background: url(images/DownArrow.gif) 100% 50% no-repeat;
+}

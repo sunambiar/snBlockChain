@@ -1,0 +1,81 @@
+/* 
+    Document   : style
+    Created on : 24 Nov, 2010, 3:09:26 PM
+    Author     : 00500614
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body {
+  background: #E8E8E8 url(../images/stripes.gif) repeat;
+}
+
+#content{
+  background: white;
+  width: 1000px;
+  margin: 0px auto;
+  border-left: outset lightgray;
+  border-right: inset lightgray;
+}
+
+#header{
+  background: url(../images/top.bmp) repeat-x top;
+  width: 100%;
+  padding-top: 20px;
+}
+
+#article{
+  background: inherit;
+  width: 100%;
+  float: left;
+}
+
+#left{
+  width: 20%;
+  height: 500px;
+  padding-top: 20px;
+  padding-left: 5px;
+  float: left;
+  overflow: auto;
+}
+
+#right{
+  width: 78%;
+  float: right;
+  padding-top: 10px;
+  height: 500px;
+  overflow: auto;  
+}
+
+#footer{
+  background: url(../images/bottom.bmp) repeat-x bottom white;
+  width: 100%;
+  padding-top: 20px;
+  text-align: center;
+/*  font-style: italic;*/
+  font-weight: bold;
+  color: midnightblue;
+  font-size: 12px;
+}
+
+.links{
+  font-family: Sanserif;
+  color:  darkgray;
+}
+
+a.links{
+  font-family: Sanserif;
+  text-decoration: none;
+  font-size: 14px;
+  color: darkgray;
+  font-weight: bold;
+}
+
+a.links:hover{
+  font-size: 16px;
+  color: fuchsia;
+}
+
+#p_marquee {
+  padding: 5px 5px 5px 5px;
+}

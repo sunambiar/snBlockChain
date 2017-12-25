@@ -1,0 +1,315 @@
+.titles {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px; font-style: normal; line-height: normal;
+	font-variant: normal; 
+	/*text-transform: capitalize;*/
+	color: #101010;
+}
+
+
+a {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8px; font-style: small; line-height: normal;
+	font-variant: normal; 
+	/*color: #00FFAA;   */
+}
+
+INPUT {
+  	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; 
+	BORDER-BOTTOM-WIDTH: 1px; BORDER-RIGHT-WIDTH: 1px;
+	BORDER-LEFT-COLOR: #000000; BORDER-BOTTOM-COLOR: #000000; 
+	FONT: 11px Verdana, Arial, Helvetica, sans-serif; COLOR: #000000; 
+	BORDER-TOP-COLOR: #000000; BORDER-RIGHT-COLOR: #000000
+}
+
+SELECT {
+	BORDER-LEFT-COLOR: #000000; BORDER-BOTTOM-COLOR: #000000; 
+	FONT: 11px Verdana, Arial, Helvetica, sans-serif; COLOR: #000000; 
+	BORDER-TOP-COLOR: #000000; BORDER-RIGHT-COLOR: #000000;
+        text-transform: capitalize;
+}
+
+.TRLIGHT {
+	BACKGROUND-COLOR: #eeeeee;
+}
+
+.TRDARK {
+	BACKGROUND-COLOR: #e0e0e0;
+}
+
+TABLE {
+	BACKGROUND-COLOR: #FFFFFF;
+}
+
+table.top { 
+	background-color: #FFFFCC; 
+	border: 1px solid #990000; 
+}
+
+TABLE.Generalpanel {
+	BORDER-RIGHT: #990000 1px solid; BORDER-TOP: #990000 1px solid; 
+	BORDER-LEFT: #990000 1px solid; BORDER-BOTTOM: #990000 1px solid; 
+	/* BACKGROUND-COLOR: #FFD9B3 */
+        BACKGROUND-COLOR: #FFFFFF;
+}
+
+TABLE.GeneralPanelNoBorder {
+	BORDER-RIGHT: 0px;
+	/* BACKGROUND-COLOR: #FFD9B3  */
+        BACKGROUND-COLOR: #FFFFFF;
+}
+
+TABLE.FOpanel {
+	BORDER-RIGHT: #000099 1px solid; BORDER-TOP: #000099 1px solid; 
+	BORDER-LEFT: #000099 1px solid; BORDER-BOTTOM: #000099 1px solid; 
+	BACKGROUND-COLOR: #E0E6FE
+}
+
+TABLE.FOPanelNoBorder {
+	BORDER: 0 px; 
+	BACKGROUND-COLOR: #E0E6FE
+}
+
+TABLE.CFOpanel {
+	BORDER-RIGHT: #009900 1px solid; BORDER-TOP: #009900 1px solid; 
+	BORDER-LEFT: #009900 1px solid; BORDER-BOTTOM: #009900 1px solid; 
+	BACKGROUND-COLOR: #EBFAEB
+}
+
+TABLE.CFOPanelNoBorder {
+	BORDER: 0 px; 
+	BACKGROUND-COLOR: #EBFAEB
+}
+
+table.panel { 
+	background-color: #C9D6EB; 
+	border: 1px solid #A1BBE4; 
+}
+
+.panelHeader { 
+	background-color: #E5ECF4; 
+	color: #000000; font-family: Verdana, Arial, Sans-Serif; 
+	font-weight: bold; height: 20px; padding-left: 5px; 
+	text-align: center; vertical-align: middle; 
+}
+
+.panelHeaderNote {
+	font-weight: normal; 
+}
+
+td.panel { 
+	padding: 5px; 
+}
+
+.row1 {
+	background-color: #BFD0EA; 
+}
+
+.row0 { 
+	background-color: #C9D6EB; 
+}
+
+.row3 { 
+	background-color: #FCE97A; 
+}
+
+.rowGeneral { 
+	/* BACKGROUND-COLOR: #FFD9B3;  */
+        BACKGROUND-COLOR: #FFFFFF;
+
+}
+
+.rowLabel { 
+	color: #676767; 
+	text-align: right; 
+	vertical-align: top; 
+}
+
+.mandatory {
+	color: #FF0000;
+	font-family: Verdana, Arial, Sans-Serif;
+	font: 11px;
+}
+.linkstyle {
+	cursor: pointer;
+	text-decoration: underline;
+	color: FF0000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.message {
+	color: #FF0000;
+	background-color: #FFFFCC;
+}
+
+
+.required {
+        background-image: url(../images/required.gif); 
+        background-position: top right; 
+        background-repeat: no-repeat;
+}
+.required2 {
+        background-image: url(../images/required.gif); 
+        background-position: top left; 
+        background-repeat: no-repeat;
+}
+
+TABLE.t0 {
+        BORDER-RIGHT: 0px; BORDER-TOP: 0px; 
+	BORDER-LEFT: 0px; BORDER-BOTTOM: 0px; 
+	BACKGROUND-COLOR: #FFD0B0;
+}
+
+TABLE.t1 {
+        BORDER-RIGHT: 0px; BORDER-TOP: 0px; 
+	BORDER-LEFT: 0px; BORDER-BOTTOM: 0px; 
+	/* BACKGROUND-COLOR: #FFD9B3; */
+        BACKGROUND-COLOR: #FFFFFF;
+}
+
+TR.g0 {
+	BACKGROUND-COLOR: #EBFFEB;
+}
+
+TR.g1 {
+	BACKGROUND-COLOR: #CBEECB;
+}
+
+TR.t0 {
+	BACKGROUND-COLOR: #FFD0B0;
+}
+
+TR.t1 {
+	/* BACKGROUND-COLOR: #FFD9B3; */
+        BACKGROUND-COLOR: #FFFFFF;
+
+}
+
+TR.fo0 {
+	BACKGROUND-COLOR: #EAEAFE;
+}
+
+TR.fo1 {
+	BACKGROUND-COLOR: #E0E6FE;
+}
+
+body {
+	margin: 0px;
+}
+
+.fillupinfo {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px; font-style: italic; line-height: normal;
+    font-variant: normal;
+    /*text-transform: capitalize;*/
+    color: #10105A;
+}
+
+.capitals {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px; line-height: normal;
+    text-transform: capitalize;
+}
+
+a:link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: normal;
+        color: #0000FF;
+}
+
+a:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: normal;
+        color: #0000FF;
+}
+
+a:active {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: normal;
+	color: #0000FF;
+}
+
+a:visited  {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: normal;
+        color: #0000FF;
+}
+
+.heading {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+}
+
+/*------------------------------------------------------ SuN ---- 2008-10-29 ---- { --*/
+.verticalMenu {
+    float: right;
+    width: 180px;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #eee;
+}
+
+.verticalMenu div {
+    margin: 0 0 5px 0;
+    border: 1px solid #C1DAD7;
+}
+
+.verticalMenu p {
+    margin: 2px 2px 2px 2px;
+    padding: 2px 0px 2px 0px;
+    color: #3333ff;
+    background: #d5ff66 url( "../images/computer1.gif" ) center left no-repeat;
+    font-size: 70%;
+    font-weight: bold; 
+   /* text-transform: uppercase; */
+    text-align: center;
+}
+
+.verticalMenu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.verticalMenu a {
+    text-decoration: none;
+    color: #666;
+    background: #f3f3f3;
+    display: block;
+    border: 1px solid #ddd;
+    padding: 4px 20px 0px 20px;
+    margin: 2px 0 0 0;
+    height: 24px;
+}
+
+.verticalMenu li {
+    padding: 0;
+    margin: 0;
+    vertical-align: center;
+    align: center;
+}
+
+.verticalMenu a:hover, .verticalMenu a:active {
+    color: #0000ff;
+    background: #FFFFFF url( "../images/bullet_go.gif" ) center left no-repeat;
+    font-weight: bold; 
+}
+/*
+.verticalMenu a:visited {
+    color: #996600;
+    font-weight: normal; 
+}
+*/
+
+/*------------------------------------------------------ SuN ---- 2008-10-29 ---- } --*/
+

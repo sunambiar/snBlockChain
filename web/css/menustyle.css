@@ -1,0 +1,278 @@
+/* 
+    Document   : style1
+    Created on : 27 Nov, 2010, 12:37:11 PM
+    Author     : 00500614
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#LeftMenu {
+  width: 230px;
+  line-height: 25px;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  background-color: white;
+  font-family: Calibri;
+}
+#LeftMenu a {
+  width: 95%;
+  display: block;
+  padding-left: 10px;
+  text-decoration: none;
+}
+#LeftMenu a:link {
+  text-decoration: none;
+}
+#LeftMenu a:visited {
+  color:black;
+  text-decoration:none;
+}
+#LeftMenu a:hover {
+  text-decoration: none;
+}
+
+#LeftMenu li {
+  width: 100%;
+  background: url(../images/menubg.gif) #009ACD repeat-x;
+}
+
+
+#LeftMenu li a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  font-size: 16px;
+  font-family: Calibri;
+  text-align: left;
+  padding-top:4px;
+}
+#LeftMenu li a:hover{
+  color: orangered;
+  text-decoration: none;
+ 
+}
+
+#LeftMenu li ul {
+  width: 100%;
+  line-height: 22px;
+  list-style-type: none;
+  text-align:left;
+  display: none;
+  margin: 0px;
+  padding: 0px;
+}
+#LeftMenu li ul li{
+  background: url(images/minus.gif) -5% 50% no-repeat #E0EFFE;
+  width: 100%;
+}
+
+#LeftMenu li ul li ul {
+  line-height: 22px;
+  list-style-type: none;
+  text-align:left;
+  display: none;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+#LeftMenu li ul li ul li{
+  background: url(images/menu_arrow.png) 5% 50% no-repeat #E0EEEE;
+  width: 100%;
+}
+
+#LeftMenu li ul li ul li ul{
+  line-height: 20px;
+  list-style-type: none;
+  text-align:left;
+  display: none;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+#LeftMenu li ul li ul li ul li{
+  width: 100%;
+  background: url(images/black_bullets.gif) 10% 50% no-repeat #E0EFFE;
+}
+
+#LeftMenu li ul li ul li ul li ul{
+  line-height: 19px;
+  list-style-type: none;
+  text-align:left;
+  display: none;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+#LeftMenu li ul li ul li ul li ul li{
+  width: 100%;
+  background: url(../images/bullets.png) 12% 50% no-repeat #FFFFFF;
+}
+
+#LeftMenu li ul li a{
+  width: 90%;
+  text-align:left;
+  padding-left:10%;
+  border-bottom: 2px solid #009ACD;
+  text-decoration: none;
+  color: darkgray;
+  font-size: 14px;
+}
+#LeftMenu li ul li a:link {
+  color:#666;
+  text-decoration:none;
+}
+#LeftMenu li ul li a:visited {
+  color:#666;
+  text-decoration:none;
+}
+#LeftMenu li ul li a:hover {
+  color: orangered;
+  text-decoration: none;
+  border-bottom: 2px solid #CD3700;
+}
+
+#LeftMenu li ul li ul li a{
+  width: 85%;
+  text-align:left;
+  padding-left:15%;
+  font-size: 12px;
+  border-bottom: 2px solid #B2DFEE;
+  text-decoration: none;
+  color: darkgray;
+}
+#LeftMenu li ul li ul li a:link {
+  color:#666;
+  text-decoration:none;
+}
+#LeftMenu li ul li ul li a:visited {
+  text-decoration:none;
+}
+#LeftMenu li ul li ul li a:hover {
+  color: orangered;
+  text-decoration: none;
+  border-bottom: 2px solid #FF4500;
+}
+
+#LeftMenu li ul li ul li ul li a{
+  width: 80%;
+  text-align:left;
+  font-size: 12px;
+  padding-left:20%;
+  border-bottom: 2px solid #E0FFFF;
+  text-decoration: none;
+  color: darkgray;
+}
+#LeftMenu li ul li ul li ul li a:link {
+  color:#666;
+  text-decoration:none;
+}
+#LeftMenu li ul li ul li ul li a:visited {
+  text-decoration:none;
+}
+#LeftMenu li ul li ul li ul li a:hover {
+  color: orangered;
+  text-decoration: none;
+  border-bottom: 2px solid #FF0000;
+}
+
+#LeftMenu li ul li ul li ul li ul li a{
+  width: 80%;
+  text-align:left;
+  font-size: 12px;
+  padding-left:20%;
+  border-bottom: 2px solid #E0FFFF;
+  text-decoration: none;
+  color: black;
+}
+#LeftMenu li ul li ul li ul li ul li a:link {
+  color:#666;
+  text-decoration:none;
+}
+#LeftMenu li ul li ul li ul li ul li a:visited {
+  text-decoration:none;
+}
+#LeftMenu li ul li ul li ul li ul li a:hover {
+  color: orangered;
+  text-decoration: none;
+  border-bottom: 2px solid #FF0000;
+}
+
+.arrow{
+  background: url(images/DownArrow.gif) 100% 50% no-repeat;
+}
+
+#ListMenu {
+  width: 100%;
+  line-height: 30px;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  font-family: Calibri;
+  font-size: 13px;
+}
+#ListMenu a {
+  display: block;
+  width: 100%;
+  padding-left: 1%;
+}
+#ListMenu a:link {
+  color: #141414;
+  text-decoration: none;
+}
+#ListMenu a:visited {
+  color:#141414;
+  text-decoration:none;
+}
+#ListMenu a:hover {
+  color: orangered;
+  text-decoration: none;
+
+}
+
+#ListMenu li {
+  width: 100%;
+  background: none;
+}
+
+#ListMenu li a {
+  border-bottom: 1px solid #d9d9d9;
+}
+
+#ListMenu li a:hover{
+  text-decoration: none;
+  border-bottom: 1px solid orangered;
+}
+
+#RightMenu {
+  width: 100%;
+  line-height: 20px;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  background-color: aliceblue;
+  font-family:  Verdana;
+  font-size: 12px;
+}
+#RightMenu a {
+  display: block;
+  border-bottom: 1px solid lightgray;
+  width: 91%;
+  padding-left: 9%;
+}
+#RightMenu a:link {
+  color: #141414;
+  text-decoration: none;
+}
+#RightMenu a:visited {
+  text-decoration:none;
+  color: #141414;
+}
+#RightMenu a:hover {
+  color: orangered;
+  text-decoration: none;
+  border-bottom: 1px solid midnightblue;
+}
