@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<entry key="Name">EmailDB</entry>
+<entry key="DataBase Type">Oracle</entry>
+<entry key="Driver">oracle.jdbc.driver.OracleDriver</entry>
+<entry key="validation">SELECT 1 from dual</entry>
+
+<entry key="Max Active Connections">10</entry>
+<entry key="Max Idle Connections">5</entry>
+<entry key="Min Idle Milliseconds for Statement Eviction">0</entry>
+<entry key="Max Wait Milliseconds until New Connection">0</entry>
+<entry key="Max Active Statements">0</entry>
+<entry key="Max Idle Statements">0</entry>
+
+<entry key="Load Database Pool on Startup">true</entry>
+
+<entry key="login">email</entry>
+<entry key="pass">zambori@98760</entry>
+<!--entry key="JDBCurl">jdbc:oracle:thin:@IOCLORADB2-SCAN.DS.INDIANOIL.IN:1521/MKTORADB</entry-->
+<entry key="JDBCurl">jdbc:oracle:thin:@OTHORASCAN.ds.indianoil.in:1521/MKTORARACKDB</entry>
+</properties>
